@@ -33,12 +33,19 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
 //        width: 250,
-        width: MediaQuery.of(context).size.width,//هيك أنا أخذت العرض الحقيقي للشاشة
+        width: MediaQuery.of(context)
+            .size
+            .width, //هيك أنا أخذت العرض الحقيقي للشاشة
         color: Colors.blueAccent,
         child: Column(
           children: <Widget>[
+            Padding(
+              padding: EdgeInsets.only(top: 25,bottom: 15),
+            ),
+//            Padding(
+//              child: Text("I am 2"),
+//            ),
             Text("I am 1"),
-            Text("I am 2"),
             Text("I am 3"),
             Text("I am 4"),
             Text("I am 5"),

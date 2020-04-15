@@ -32,9 +32,17 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("My First"),
       ),
       body: Container(
-//        margin: EdgeInsets.all(50.0),
-        margin: EdgeInsets.only(top:25,left:15),
+        width: 250,
         color: Colors.blueAccent,
+        child: Column(
+          children: <Widget>[
+            Text("I am 1"),
+            Text("I am 2"),
+            Text("I am 3"),
+            Text("I am 4"),
+            Text("I am 5"),
+          ],
+        ),
       ),
       drawer: Drawer(),
     );

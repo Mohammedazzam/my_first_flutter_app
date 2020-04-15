@@ -40,13 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.only(top: 25,bottom: 15),
+              padding: EdgeInsets.only(top: 25),
+              child: Text("i am 1"),
             ),
-//            Padding(
-//              child: Text("I am 2"),
-//            ),
-            Text("I am 1"),
-            Text("I am 3"),
+           Padding(
+              padding: EdgeInsets.only(top: 25),
+              child: Text("i am 2"),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 25),
+              child: Text("i am 3"),
+            ),
             Text("I am 4"),
             Text("I am 5"),
           ],

@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("My First"),
       ),
       body: Container(
+        margin: EdgeInsets.all(50.0),
         color: Colors.blueAccent,
       ),
       drawer: Drawer(),

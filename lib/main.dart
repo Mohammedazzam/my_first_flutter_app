@@ -31,6 +31,14 @@ class _MyHomePageState extends State<MyHomePage> {
       centerTitle: true,
         title: Text("My First"),
         backgroundColor: Colors.red,
+        actions: <Widget>[
+          FlatButton(
+            child: Text("click1"),
+          ),
+          FlatButton(
+            child: Text("click2"),
+          ),
+        ],
       ),
       body: Container(
 

@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.red,
         actions: <Widget>[
           FlatButton(
-            child: Text("click1"),
+            child: Text("click1" ,style: TextStyle(color: Colors.white),),
             onPressed: (){
               print('clicked');
             },

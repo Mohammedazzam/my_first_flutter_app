@@ -34,6 +34,9 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: <Widget>[
           FlatButton(
             child: Text("click1"),
+            onPressed: (){
+              print('clicked');
+            },
           ),
           FlatButton(
             child: Text("click2"),

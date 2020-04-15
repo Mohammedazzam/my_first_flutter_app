@@ -27,6 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar( //هذا خاص بالجزء الي فوق من التطبيق كال nav
+        elevation: 0,
         title: Text("My First"),
       ),
       body: Container(

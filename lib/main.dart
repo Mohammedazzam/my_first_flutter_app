@@ -32,7 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("My First"),
       ),
       body: Container(
-        width: 250,
+//        width: 250,
+        width: MediaQuery.of(context).size.width,//هيك أنا أخذت العرض الحقيقي للشاشة
         color: Colors.blueAccent,
         child: Column(
           children: <Widget>[

@@ -17,11 +17,17 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
+
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  TextStyle _textStyle = TextStyle(
+      color: Colors.white,
+      fontSize: 16,
+      fontWeight: FontWeight.bold
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Padding(
               padding: EdgeInsets.only(top: 25),
-              child: Text("i am 1"),
+              child: Text("i am 1",style: _textStyle,),
             ),
            Padding(
               padding: EdgeInsets.only(top: 25),
@@ -49,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Padding(
               padding: EdgeInsets.only(top: 25),
-              child: Text("i am 3"),
+              child: Text("i am 3",style: _textStyle,),
             ),
             Text("I am 4"),
             Text("I am 5"),
